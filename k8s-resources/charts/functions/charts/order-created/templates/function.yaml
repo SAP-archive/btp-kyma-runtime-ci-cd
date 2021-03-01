@@ -1,0 +1,19 @@
+apiVersion: serverless.kyma-project.io/v1alpha1
+kind: Function
+metadata:
+  name: {{ include "order-created.fullname" . }}
+spec:
+  type: git
+  runtime: nodejs12
+  source: {{ printf "%s-repository" .Release.Name }}
+  reference: main
+  baseDir: functions/order-created
+  env:
+  - name: REDIS_HOST
+    value: {{ printf "%s-redis" .Release.Name }}
+  - name: REDIS_PORT
+    value: "6379"
+  - name: "BASE_SITE"
+    value: electronics #change it if you have different base site
+  - name: "GATEWAY_URL"
+    value: "$({{ .Values.global.functions.orderCreated.bindings.occ.gatewayUrlVarName }})" #update the name as in your created credential

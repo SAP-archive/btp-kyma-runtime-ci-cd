@@ -1,0 +1,15 @@
+apiVersion: serverless.kyma-project.io/v1alpha1
+kind: Function
+metadata:
+  name: {{ include "get-orders.fullname" . }}
+spec:
+  type: git
+  runtime: nodejs12
+  source: {{ printf "%s-repository" .Release.Name }}
+  reference: main
+  baseDir: functions/get-orders
+  env:
+  - name: REDIS_HOST
+    value: {{ printf "%s-redis" .Release.Name }}
+  - name: REDIS_PORT
+    value: "6379"

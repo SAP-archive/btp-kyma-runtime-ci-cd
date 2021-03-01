@@ -1,0 +1,16 @@
+apiVersion: eventing.knative.dev/v1alpha1
+kind: Trigger
+metadata:
+  name: {{ include "order-created.fullname" . }}
+spec:
+  broker: default
+  filter:
+    attributes:
+      eventtypeversion: v1
+      source: {{ .Values.global.sources.commerce }}
+      type: order.created
+  subscriber:
+    ref:
+      apiVersion: v1
+      kind: Service
+      name: {{ include "order-created.fullname" . }}

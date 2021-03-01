@@ -1,0 +1,6 @@
+apiVersion: serverless.kyma-project.io/v1alpha1
+kind: GitRepository
+metadata:
+  name: {{ include "repository.fullname" . }}
+spec:
+  url: "{{ .Values.repository.url }}"

@@ -1,0 +1,5 @@
+/do-not-commit
+functions/.nyc_output
+functions/coverage
+functions/node_modules
+.DS_Store

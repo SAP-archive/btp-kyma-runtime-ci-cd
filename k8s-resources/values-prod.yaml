@@ -1,0 +1,15 @@
+global:
+  extensions:
+    ordersExtension:
+      bindings:
+        occ:
+          ref: reverent-morse #update this
+          gatewayUrlVarName: SAP_COMMERCE_CLOUD_COMMERCE_WEBSERVICES_0229C59F_778E_4E5C_9D65_DB237D9434A1_GATEWAY_URL #update this
+  functions:
+    orderCreated:
+      bindings:
+        occ:
+          ref: reverent-morse #update this
+          gatewayUrlVarName: SAP_COMMERCE_CLOUD_COMMERCE_WEBSERVICES_0229C59F_778E_4E5C_9D65_DB237D9434A1_GATEWAY_URL #update this
+  sources:
+    commerce: mp-gaurav-mock-commerce

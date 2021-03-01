@@ -1,0 +1,9 @@
+{
+    "name": "get-orders",
+    "version": "1.0.0",
+    "dependencies": {
+        "redis": "^3.0.2",
+        "url": "^0.11.0",
+        "util": "^0.11.1"
+    }
+}
