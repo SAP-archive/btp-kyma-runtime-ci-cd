@@ -20,6 +20,8 @@ I would like to have **seamless automated deployments**
 
 Below is a example flow using Github actions (which can be easily replaced by any other similar service such as Jenkins)
 
+This repository contains the assets and source code referring to [this blog post](https://blogs.sap.com/2021/02/12/building-ci-cd-pipelines-for-kyma-runtime-extensions-and-applications/).
+
 ## Developer CI CD Flow
 
 ![Developer Flow](assets/developer-flow.svg)
@@ -136,8 +138,6 @@ The samples are provided on the "as-is" basis. Currently, there are no known iss
 [Create an issue](https://github.com/SAP-samples/btp-kyma-runtime-ci-cd/issues) in this repository if you find a bug or have questions about the content.
 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
-
-## Contributing
 
 ## License
 
