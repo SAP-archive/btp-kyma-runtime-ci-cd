@@ -1,12 +1,12 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-kyma-runtime-ci-cd)](https://api.reuse.software/info/github.com/SAP-samples/btp-kyma-runtime-ci-cd)
+# Building CI CD Pipelines for Kyma Runtime Extensions and Applications
 
-# Building CI CD Pipelines for Kyma runtime extensions and applications
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-kyma-runtime-ci-cd)](https://api.reuse.software/info/github.com/SAP-samples/btp-kyma-runtime-ci-cd)
 
 ## Description
 
-With more & more developers building extensions and applications using [SAP BTP, Kyma runtime](https://blogs.sap.com/2020/05/12/get-a-fully-managed-runtime-based-on-kyma-and-kubernetes/), it is but natural to implement CI-CD flows.
+With more and more developers building extensions and applications using [SAP BTP, Kyma runtime](https://blogs.sap.com/2020/05/12/get-a-fully-managed-runtime-based-on-kyma-and-kubernetes/), it is but natural to implement CI-CD flows.
 
-As a developer, I would like to ensure,
+As a developer, I would like to ensure:
 
 - Code quality of my Kyma functions and microservices.
 - All checks related to code styling, security best practices are followed
