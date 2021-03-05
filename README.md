@@ -1,6 +1,6 @@
-# Building CI CD Pipelines for Kyma Runtime Extensions and Applications
-
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-kyma-runtime-ci-cd)](https://api.reuse.software/info/github.com/SAP-samples/btp-kyma-runtime-ci-cd)
+
+# Building CI CD Pipelines for Kyma Runtime Extensions and Applications
 
 ## Description
 
