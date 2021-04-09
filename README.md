@@ -36,7 +36,7 @@ Functions are configured using [Kyma GitRepository feature](https://kyma-project
 
 ## Requirements
 
-- SAP Cloud Platform, Kyma runtime
+- SAP BTP, Kyma runtime
 - SAP Commerce Cloud system connected to the Kyma runtime. You can also use the mock. Refer to [this blog post](https://blogs.sap.com/2020/06/17/sap-cloud-platform-extension-factory-kyma-runtime-mock-applications/) to set up the commerce mock.
 - Not-expiring Kubeconfig for dev and prod environments. They are obtained by following the instructions [kubeconfig-for-sa](https://github.com/kyma-incubator/examples/tree/master/kubeconfig-for-sa)
 - Docker Account and generated Docker token.
