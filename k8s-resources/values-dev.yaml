@@ -1,15 +1,8 @@
 global:
-  extensions:
-    ordersExtension:
-      bindings:
-        occ:
-          ref: gallant-montalcini
-          gatewayUrlVarName: SAP_COMMERCE_CLOUD_COMMERCE_WEBSERVICES_0229C59F_778E_4E5C_9D65_DB237D9434A1_GATEWAY_URL
-  functions:
-    orderCreated:
-      bindings:
-        occ:
-          ref: gallant-montalcini
-          gatewayUrlVarName: SAP_COMMERCE_CLOUD_COMMERCE_WEBSERVICES_0229C59F_778E_4E5C_9D65_DB237D9434A1_GATEWAY_URL
+  bindings:
+    ccv2:
+      occ:
+        ref: friendly-dewdney
+        gatewayUrlVarName: SAP_COMMERCE_CLOUD_COMMERCE_WEBSERVICES_0229C59F_778E_4E5C_9D65_DB237D9434A1_GATEWAY_URL
   sources:
-    commerce: mp-gaurav-mock-commerce
+    commerce: gaurav-10-mock-ccv2
